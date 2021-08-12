@@ -1,0 +1,859 @@
+
+ 
+ .navbar
+ {
+  /* background: rgb(73,185,198); */
+  background:black;
+   font-size: 15px;
+   font-weight:bold;
+   color:#fff;
+   
+  
+}
+
+
+ 
+
+.nav-link {
+  color: white !important;
+
+}
+
+
+  .nav-link:hover {
+    color: #FF8D09 !important;
+    }
+
+  #navbar5 {
+    text-align: center;
+  }
+
+
+
+
+/* footer */
+.footer-copyright
+{
+    color: #FF8D09;
+}
+
+.fhead
+{
+    color: #FF8D09;
+}
+
+.page-footer
+{
+ background-color:black;
+  color:#FF8D09;
+
+
+}
+
+
+
+
+
+
+/* Carousel base class */
+
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 38rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    min-width: 100%;
+    height: 38rem;
+  }
+  
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+  
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+
+  /* SERVICES */
+.servhead
+{
+  padding-top: 1cm;
+    text-align:center;
+    color:black;
+    font-family: serif;
+
+}
+
+.servtitle
+{
+    text-align:center
+}
+span{
+    font-size:15px;
+}
+
+
+.box-part{
+    background:#FFF;
+    
+    padding:30px 10px;
+    margin:30px 0px;
+    border:1px solid;
+    
+}
+
+.box-part:hover
+{
+    
+    
+    transition: 0.3s;
+    transform: 2s;
+    
+}
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+     color: #000000;
+} 
+
+
+/* courses */
+
+.cdemo
+{
+  background-color: #f7f7f7;
+background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.08' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.btn-primary
+{
+  margin-top:1cm;
+  
+  
+}
+
+.courses-head
+{
+ padding-top:1cm;
+ color:rgb(0, 0, 0);
+ font-family: serif;
+
+}
+
+.courses-title
+{
+  text-align:center;
+  color:black;
+}
+h5 {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+    margin: 0;
+}
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    border:solid;
+    
+}
+
+.card:hover{
+  z-index:1;
+  transform: scale(1.05);
+  transition: 0.8s;
+    box-shadow: 0 5px 5px 0 #a6a6c9, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 0.5cm;
+    color: #000000;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+    text-align: center;
+}
+.meta{
+text-align: center;
+}
+
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #ffb560;
+    text-align: center;
+}
+
+.card-inverse .btn {
+    border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.btn{
+  color: rgb(252, 252, 252);
+  background-color:#FF8D09;
+}
+
+
+.profile {
+    position: absolute;
+    top: -12px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.profile-avatar {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile-inline {
+    position: relative;
+    top: 0;
+    display: inline-block;
+}
+
+.profile-inline ~ .card-title {
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: top;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.meta {
+    font-size: 1em;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a:hover {
+    color: rgba(0, 0, 0, .87);
+}
+
+
+/*  enroll course */
+.Enroll
+{background: rgb(255,141,9);
+  background: linear-gradient(90deg, rgba(255,141,9,1) 56%, rgba(207,119,16,1) 86%);}
+
+.Enrollrow
+{
+  padding:1cm;
+}
+
+.checked
+{
+  color: orange;
+}
+.learntittle
+{
+  color:black;
+}
+
+/*  about course */
+
+.Abtcourse
+{
+  padding:1cm;
+}
+
+/* learn */
+ .learncont
+ {
+   padding:0.5cm;
+ }
+ .learnhead
+{
+  padding-bottom: 0.5cm;
+}
+ .learncol
+ {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  
+ }
+
+
+ /* certificate */
+ 
+
+
+
+  
+
+
+
+
+/* About */
+/*  why choose us */
+
+
+ .Acchead
+ {
+   text-align: center;
+   color:#000000;
+   padding-top: 1cm;
+   font-family: serif;
+   
+ }
+
+ .AccText
+ {
+   text-align: center;
+   margin-top: 0.6cm;
+   margin-bottom: 0.6cm;
+   font-size: 2.5vh;    
+ }
+/* Accordian */
+
+.AccColumn, .imgColumn
+{
+  padding-top:1.5cm;
+}
+@media screen and (max-width: 900px)
+{
+  .AccColumn, .imgColumn
+  {
+    padding:0px;
+  }
+}
+
+
+.accordion-item
+{
+  width: 12cm;
+  margin-bottom: 0.3cm;
+  
+}
+@media screen and (max-width: 900px)
+{
+  .accordion-item
+  {
+    width: auto;
+  }
+}
+
+
+/* Accordian img*/
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.topimg
+{
+  padding-left: 1cm;
+  padding-bottom: 1cm;
+}
+
+@media screen and (max-width: 900px)
+{
+  .topimg
+  {
+    padding:0%
+  }
+}
+
+
+
+/* Best teacher*/
+.TeachersHead
+{
+  font-family: serif;
+  text-align: center;
+  color:rgb(0, 0, 0);
+}
+.TeachersContent
+{
+  margin-top:0.5cm;
+  text-align: center;
+}
+
+
+.teachers{
+  padding-top:1.5cm;
+  padding-bottom:0.5cm;
+}
+.our-team{
+  padding: 5px;
+  text-align: center;
+  position: relative;
+}
+.our-team:hover{
+  background-color:#ffbe74;
+  transition:1s;
+  border-radius: 3%;
+}
+.our-team .pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto 25px;
+  overflow: hidden;
+}
+.our-team .pic img{
+width: 100%;
+object-fit: cover;
+}
+.our-team .social{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: absolute;
+  top: 15%;
+  left: 85%;
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 0.7s ease 0s;
+}
+.our-team:hover .social{
+  opacity: 1;
+  transform: translateX(0px);
+}
+.our-team .social  li a{
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  font-size: 15px;
+  color: #001d33;
+  border: 1px solid #001D33;
+  background: #fff;
+  transform: scale(0);
+  transition: all 0.7s ease 0s;
+}
+.our-team:hover .social  li a{
+  transform: scale(1);
+}
+.our-team .social li a:hover{
+  color: #fff;
+  background: #FF8D09;
+}
+.our-team .title{
+  display: inline-block;
+  font-size: 19px;
+  color: #000000;
+  letter-spacing: 1px;
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+}
+.our-team .post{
+  display: inline-block;
+  font-size: 15px;
+  color:#FF8D09;
+  text-transform: uppercase;
+}
+.our-team .description{
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  line-height: 20px;
+  
+}
+@media only screen and (max-width: 990px){
+  .our-team{ margin-bottom: 30px; }
+}
+
+
+/* E-learning */
+
+.e-Head 
+{
+text-align: center;
+color: rgb(0, 0, 0);
+padding:1.5cm ;
+font-family: serif;
+}
+
+.Eimg
+{
+  
+padding:1cm;
+}
+
+
+
+@media screen and (max-width: 900px)
+{
+  .Eimg
+  {
+    padding:0.5cm;
+  }
+}
+
+.etitle1
+{
+  color:#FF8D09;
+}
+.etitle2
+{
+  color:#FF8D09;
+}
+
+
+  .etitle1, .etitle2, .etitle3
+
+  {
+    text-align:center;
+  }
+
+
+
+.Econtent1, .Econtent2, .Econtent3
+{
+  padding:1cm;
+  text-align:justify;
+}
+
+
+@media screen and (max-width: 900px)
+{
+  .Econtent1, .Econtent2, .Econtent3
+  {
+    padding:0.2cm;
+    text-align:justify;
+  }
+}
+
+
+
+
+@media screen and (max-width: 900px)
+{
+  
+  .etitle1
+  {
+    padding-left:1cm;
+    padding-right:1cm;
+  
+  }
+  
+}
+
+
+
+
+/* faq accordian */
+
+.faqhead
+{
+  color:rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 2cm;
+  font-family: serif;
+  margin-bottom:1cm;
+}
+
+.faqcontent
+{
+  text-align:center;
+}
+
+.accordion-items
+{
+  border: 1px solid;
+  margin-bottom:0.5cm;
+}
+
+
+
+
+/* course */
+.courses-head
+{
+  color:rgb(0, 0, 0);
+  text-align: center;
+}
+.cardss {
+  font-size: 1em;
+  overflow: hidden;
+  padding: 0;
+  margin-bottom:1cm;
+  border: solid;
+  background-color: white;
+  border-radius: .28571429rem;
+ 
+}
+
+.cardss:hover{
+  z-index:1;
+  transform: scale(1.05);
+  transition: 0.8s;
+    box-shadow: 0 0 2px 2px #000000;
+}
+
+.pagination-outer
+{ 
+  text-align: center;
+  
+
+}
+.pagination{
+    font-family: 'Raleway', sans-serif;
+    display: inline-flex;
+    position: relative;
+}
+.pagination li a.page-link{
+    color: #000000;
+    background: rgb(224, 224, 224);
+    font-size: 20px;
+  
+    line-height: 30px;
+    height: auto;
+    width: auto;
+    padding: 1;
+    margin: 0 7px;
+    border-radius: 0;
+    border: 1px solid black;
+    transform-style:preserve-3d;
+    position:relative;
+    z-index: 1;
+    transition: all 0.3s ease 0.3s;
+}
+.pagination li a.page-link:hover{ transform: perspective(350px) rotateY(50deg); }
+.pagination li a.page-link:focus,
+.pagination li.active a.page-link:hover,
+.pagination li.active a.page-link{
+    color: #fff;
+    background: #0073e6;
+    transform: perspective(350px) rotateY(360deg);
+}
+.pagination li:first-child a.page-link,
+.pagination li:last-child a.page-link{
+    border-radius: 0;
+    line-height: 32px;
+}
+@media only screen and (max-width: 480px){
+    .pagination{
+        font-size: 0;
+        display: inline-block;
+    }
+    .pagination li{
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 0 10px;
+    }
+}
+
+
+
+/* contact*/
+
+.contacthead
+{
+  color:#000000;
+  font-family: serif;
+}
+.cont
+{
+  border: 2px solid coral;
+  border-radius:0.5em;
+  color:rgb(0, 0, 0);
+  background-color:rgb(165, 165, 165)
+}
+
+
+
+/* login */
+
+.panel-title
+{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1cm;
+
+}
+
+.formbg
+{
+  padding-bottom: 1cm;
+}
+
+/* welcome */
+
+.welcomebg
+{
+  text-align:center;
+  padding-top:3cm;
+  padding-bottom:3cm;
+  
+}
+.welcome
+{
+  background: rgb(255,141,9);
+  background: linear-gradient(90deg, rgba(255,141,9,1) 56%, rgba(207,119,16,1) 86%);
+  font-family:serif;
+}
+
+/* process */
+
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    margin: 50px auto;
+    padding: 25px;
+    
+}
+@media screen and (max-width: 900px)
+{
+  .mytabs
+  {
+    max-width: 100%;
+  }
+}
+
+
+.mytabs input[type="radio"] {
+    display: none;
+}
+.mytabs label {
+    padding: 20px;
+    background: #f7f7f7;
+    font-weight: bold;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 20px;
+    background: #f7f7f7;
+    order: 1;
+    display: none;
+}
+.mytabs .tab h2 {
+    font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: #FF8D09;
+}
+
+/* process card */
+
+.tab
+{
+  height: 500px;
+  overflow: hidden;
+}
+
+.tab:hover
+{
+overflow-y: auto;
+}
+.ProTittle
+{
+  margin-bottom:5%;
+  font-family:serif;
+}
